@@ -1,55 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Ping coming soon page</title>
-  
-  <link
-    href="style/globals.css"
-    rel="stylesheet"
-  />
-  <link
-    href="style/main.css"
-    rel="stylesheet"
-  />
-  
-  <!-- Links Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-  <main id="main">
-    <figure>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    
+    <title>Frontend Mentor | Ping coming soon page</title>
+    
+    <link
+      href="style/globals.css"
+      rel="stylesheet"
+    />
+    <link
+      href="style/main.css"
+      rel="stylesheet"
+    />
+    
+    <!-- Links Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main id="main">
+      <figure>
+        <img
+          src="assets/logo.svg"
+          alt="logo website"
+        />  
+      </figure>
+      <div id="area-title">
+        <h1 id="title">We are launching <strong>soon!</strong></h1>
+        <span id="description">Subscribe and get notified</span>
+      </div>
+      <form id="form-notify">
+        <input
+          type="text"
+          placeholder="Your email address..."
+        />
+
+        <button>
+          Notify Me
+        </button>
+      </form>
       <img
-        src="assets/logo.svg"
-        alt="logo website"
-      />  
-    </figure>
-    <div id="area-title">
-      <h1>We are launching soon!</h1>
-    </div>
-  </main>
+        id="illustration-dashboard"
+        src="assets/illustration-dashboard.png"
+        alt="illustration dashboard"
+      />
+    </main>
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <footer id="footer">
+      <div id="area-social-media">
+
+      </div>
+      <span id="copyright">
+        &copy; Copyright Ping. All rights reserved.
+      </span>
+    </footer>
+
+    <div id="info-developer">
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </div>
+
+    <script src="script/renderMediaSocial.js"></script>
+  </body>
 </html>
 
 <!--
   
 
-  Subscribe and get notified
+  
 
-  Notify Me
 
-  &copy; Copyright Ping. All rights reserved.
+  
 -->
