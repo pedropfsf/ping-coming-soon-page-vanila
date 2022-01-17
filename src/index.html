@@ -35,12 +35,16 @@
         <span id="description">Subscribe and get notified</span>
       </div>
       <form id="form-notify">
-        <input
-          type="text"
-          placeholder="Your email address..."
-        />
+        <div id="area-input">
+          <input
+            id="input-email"
+            type="text"
+            placeholder="Your email address..."
+          />
+          <span id="error-message-input"></span>
+        </div>
 
-        <button>
+        <button type="button">
           Notify Me
         </button>
       </form>
@@ -63,19 +67,11 @@
     <div id="info-developer">
       <p class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Your Name Here</a>.
+        Coded by <a href="https://github.com/Pyedrown" target="_blank">Pyedrown</a>.
       </p>
     </div>
 
     <script src="script/renderMediaSocial.js"></script>
+    <script src="script/input.js"></script>
   </body>
 </html>
-
-<!--
-  
-
-  
-
-
-  
--->
