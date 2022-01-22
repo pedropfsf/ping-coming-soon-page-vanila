@@ -1,0 +1,38 @@
+:root {
+    /* Primary Colors */
+    --blue: rgb(79, 125, 243);
+
+    /* Secondary Colors */
+    --pale-blue: hsl(223, 100%, 88%);
+    --light-red: hsl(354, 100%, 66%);
+
+    /* Neutral */
+    --gray: hsl(0, 0%, 59%);
+    --gray-alpha: rgba(150, 150, 150, 0.5);
+    --very-dark-blue: hsl(209, 33%, 12%);
+
+    /* Others */
+    --white: #eeeeee;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: "Libre Franklin", Helvetica, sans-serif;
+}
+
+#info-developer {
+    margin-top: 48px;
+}
+
+.attribution { 
+    font-size: 11px; 
+
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%) 
+}
