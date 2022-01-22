@@ -41,7 +41,7 @@
 #input-email {
     width: 300px;
 
-    border: 1px solid var(--gray);
+    border: 1px solid var(--gray-alpha);
     outline: none;
 
     padding: 16px;
@@ -56,6 +56,8 @@
     margin-left: 24px;
 
     font-size: 10px;
+
+    display: none;
 }
 
 #input-email::placeholder {
@@ -149,18 +151,46 @@
     stroke: #e3eafd;
 }
 
-/* .social-media:hover rect,
-.social-media:hover path
-.social-media:hover line
-{
-    
-    background-color: white;
-} */
-
 #copyright {
     font-size: 12px;
 
     margin-top: 24px;
 
     color: var(--gray);
+}
+
+@media screen and (max-width: 552px) {
+    #title {
+        font-size: 24px;
+    }
+
+    #description {
+        font-size: 15px;
+    }
+    
+    #illustration-dashboard {
+        width: 300px;
+    }
+
+    #form-notify {
+        flex-direction: column;
+    }
+
+    #form-notify > button {
+        width: 100%;
+    }
+
+    #area-input {
+        margin-bottom: 16px;
+    }
+    
+    #input-email {
+        margin-right: 0;
+    }
+
+    #error-message-input {
+        margin-left: 0;
+        
+        text-align: center;
+    }
 }

@@ -45,10 +45,12 @@ buttonSend.addEventListener("click", () => {
     const isPassed = validate(valueInputEmail);
 
     if(!isPassed) {
+        textMessageInput.style.display = "block";
         textMessageInput.innerText = "Please Provide a valide email address";
         textMessageInput.style.color = "var(--light-red)";
         inputEmail.style.borderColor = "var(--light-red)";
     } else {
+        textMessageInput.style.display = "none";
         textMessageInput.innerText = "";
         textMessageInput.style.color = "";
         inputEmail.style.borderColor = "";
